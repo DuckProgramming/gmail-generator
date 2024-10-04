@@ -1,0 +1,3 @@
+C:/Users/Marcelo/Desktop/Projects/why-gen-new/cli/build/CMakeFiles/WhyGen.dir
+C:/Users/Marcelo/Desktop/Projects/why-gen-new/cli/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Marcelo/Desktop/Projects/why-gen-new/cli/build/CMakeFiles/ZERO_CHECK.dir

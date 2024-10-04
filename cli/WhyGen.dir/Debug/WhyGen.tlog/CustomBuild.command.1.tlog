@@ -1,0 +1,10 @@
+^C:\USERS\MARCELO\DESKTOP\PROJECTS\WHY-GEN-NEW\CLI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marcelo/Desktop/Projects/why-gen-new/cli -BC:/Users/Marcelo/Desktop/Projects/why-gen-new/cli --check-stamp-file C:/Users/Marcelo/Desktop/Projects/why-gen-new/cli/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
